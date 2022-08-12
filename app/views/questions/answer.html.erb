@@ -1,0 +1,14 @@
+<div class="container">
+  <h1>Stupid coaching</h1>
+  <div class="border-start m-b 7">
+    <p><%= @question %></p>
+    <p class="fst-italic">- You</p>
+  </div>
+
+  <div class="border-start bg-warning text-dark">
+    <p><%= @answer %></p>
+    <p class="fst-italic">- Your coach</p>
+  </div>
+
+  <%= link_to 'ask more', "/ask" %>
+</div>
